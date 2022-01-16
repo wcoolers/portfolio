@@ -3,7 +3,7 @@
 export const About = () => {
     return (
         <div>
-            <h2>About</h2>
+            <h4 className="text-center">About</h4>
         </div>
     )
 }
