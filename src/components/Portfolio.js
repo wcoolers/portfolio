@@ -13,7 +13,7 @@ export const Portfolio = () => {
                             src="moviesearch.png"
                             alt="screenshot of website"
                             title="Movie Search App"
-                            text="A web app helping users to find details about their choice movies"
+                            text="A web app helping users to find details about their choice movies."
                             siteLink="https://moviesearchapp-5bae0.web.app/"
                             tech="React, API, CSS, firebase"
                         />
@@ -29,7 +29,7 @@ export const Portfolio = () => {
                             src="signup.png"
                             alt="screenshot of website"
                             title="Signup Page"
-                            text="A simple sign-up page to accept resgistration requests from potential users of a website"
+                            text="A simple sign-up page to accept resgistration requests from potential users of a website."
                             siteLink="https://wcoolers.github.io/react-login-frontend/"
                             tech="React, CSS"
                         />
@@ -37,7 +37,7 @@ export const Portfolio = () => {
                             src="akinwale.png"
                             alt="screenshot of website"
                             title="Website for a Lawfirm"
-                            text="A virtual shop for a lawfirm to reach out to clients and provide legal services"
+                            text="A virtual shop for a lawfirm to reach out to clients and provide legal services."
                             siteLink="https://michaelakinwale.cf"
                             tech="Wordpress, custom CSS"
                         />
@@ -45,7 +45,7 @@ export const Portfolio = () => {
                             src="blackacre.png"
                             alt="screenshot of website"
                             title="Website for an Estate Firm"
-                            text="A virtual shop for an estate firm to reach out to more people towards finding a home"
+                            text="A virtual shop for an estate firm to reach out to more people towards finding a home."
                             siteLink="https://blackacre.cf"
                             tech="Wordpress, custom CSS"
                         />
@@ -53,7 +53,7 @@ export const Portfolio = () => {
                             src="typer.png"
                             alt="screenshot of website"
                             title="Typing speed tester"
-                            text="A typing speed tester app which could be used to improve typing speed"
+                            text="A typing speed tester app which could be used to improve typing speed."
                             siteLink="https://wcoolers.github.io/typing-speed-tester/"
                             tech="Vanilla JavaScript"
                         />
@@ -61,7 +61,7 @@ export const Portfolio = () => {
                             src="survey.png"
                             alt="screenshot of website"
                             title="A survey form"
-                            text="A simple survey form that may be used to collect information from users for service improvement and analytics"
+                            text="A simple survey form that may be used to collect information from users for service improvement and analytics."
                             siteLink="https://wcoolers.github.io/survey-form/"
                             tech="HTML, CSS"
                         />   
