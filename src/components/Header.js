@@ -20,11 +20,11 @@ export const Header = () => {
     }
     return (
             <div>
-                <Navbar color="light" light expand="sm" className='bar bg-white'>
+                <Navbar color="light" light expand="sm" className='shade fixed-top pe-0 bg-white'>
                     <NavbarBrand tag={Link} to="/">Adegoke Akanbi</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
-                        <Nav navbar>
+                        <Nav className='ms-auto'navbar>
                             <NavItem>
                                 <NavLink tag={Link} to="/">Home</NavLink>
                             </NavItem>

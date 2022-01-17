@@ -6,17 +6,14 @@ import { Link } from "react-router-dom"
 export const Hero = () => {
     return (
         <div>
-            <Container className="bg-light p-5 rounded-lg mt-3 m-auto">
+            <Container className="p-5 rounded-lg mt-3 m-auto">
                 <Row>
                     <Col>
                         <h1>Frontend Web Developer</h1>
-                        <p>A self-taught frontend web developer with technical skills in JavaScript,<br /> React, Python, CSS, Bootstrap, MongoDB, Git amongst others. <br /> I also create beautiful websites with WordPress.</p>
-                        <p>l currently hold the Responsive Web Design Developer Certificate <br /> 
-                        and I am open to opportunities to create digital magic!</p>
+                        <p>A frontend web developer with technical skills in JavaScript, React, CSS, <br />  Git amongst others. I also have exposure to backend services (nodejs & express) and the cloud. <br /> Sometimes, I create on-the-go beautiful websites with WordPress.</p>
+                        <p>Overall, l can design and develop web apps using the latest frontend technologies <br />to bring products to life.</p>
                         <p>
-                            <Button tag={Link} to="/portfolio" color="danger">
-                                See my work
-                            </Button>
+                            <Button tag={Link} to="/portfolio" color="danger">See my work</Button>
                         </p>
                     </Col>
                 </Row>
