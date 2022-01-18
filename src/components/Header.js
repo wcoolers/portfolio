@@ -18,21 +18,26 @@ export const Header = () => {
     function toggle() {
       setIsOpen(!isOpen)
     }
+    function close() {
+        if (isOpen) {
+        toggle();
+        }
+    }
     return (
             <div>
-                <Navbar color="light" light expand="sm" className='shade fixed-top pe-0 bg-white'>
+                <Navbar color="light" light expand="sm" className='shade fixed-top bg-white'>
                     <NavbarBrand tag={Link} to="/">Adegoke Akanbi</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={isOpen} navbar>
-                        <Nav className='ms-auto'navbar>
+                    <Collapse isOpen={isOpen} navbar id="hh">
+                        <Nav className='ms-auto' navbar>
                             <NavItem>
-                                <NavLink tag={Link} to="/">Home</NavLink>
+                                <NavLink tag={Link} to="/" onClick={close}>Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink tag={Link} to="/portfolio">Portfolio</NavLink>
+                                <NavLink tag={Link} to="/portfolio" onClick={close}>Portfolio</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink tag={Link} to="/about">About</NavLink>
+                                <NavLink tag={Link} to="/about" onClick={close}>About Me</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

@@ -3,7 +3,6 @@ import { Button } from 'reactstrap'
 // import image from "../../public/imgs"
 
 export const Project = (props) => {
-    console.log(props.src)
     return (
         <div>
             <div className="project-card">

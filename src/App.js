@@ -4,6 +4,7 @@ import { Portfolio } from './components/Portfolio'
 import { About } from './components/About'
 import { Notfound } from './components/Notfound'
 import { Routes, Route } from "react-router-dom"
+import { Footer } from "./components/Footer"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="*" element={<Notfound />} />
             </Routes>
+            <Footer />
         </div>
   );
 }
