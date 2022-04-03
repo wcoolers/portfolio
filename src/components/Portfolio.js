@@ -42,22 +42,6 @@ export const Portfolio = () => {
                             tech="React, CSS."
                         />
                         <Project 
-                            src="akinwale.png"
-                            alt="screenshot of website"
-                            title="Website for a Lawfirm"
-                            text="A virtual shop for a lawfirm to reach out to clients and provide legal services."
-                            siteLink="https://michaelakinwale.cf"
-                            tech="Wordpress, custom CSS."
-                        />
-                        <Project 
-                            src="blackacre.png"
-                            alt="screenshot of website"
-                            title="Website for an Estate Firm"
-                            text="A virtual shop for an estate firm to reach out to more people towards finding a home."
-                            siteLink="https://blackacre.cf"
-                            tech="Wordpress, custom CSS."
-                        />
-                        <Project 
                             src="typer.png"
                             alt="screenshot of website"
                             title="Typing speed tester"
@@ -72,7 +56,23 @@ export const Portfolio = () => {
                             text="A simple survey form that may be used to collect information from users for service improvement and analytics."
                             siteLink="https://wcoolers.github.io/survey-form/"
                             tech="HTML, CSS."
-                        />   
+                        />
+                        <Project 
+                            src="akinwale.png"
+                            alt="screenshot of website"
+                            title="Website for a Lawfirm"
+                            text="A virtual shop for a lawfirm to reach out to clients and provide legal services."
+                            siteLink="https://michaelakinwale.cf"
+                            tech="Wordpress, custom CSS."
+                        />
+                        <Project 
+                            src="blackacre.png"
+                            alt="screenshot of website"
+                            title="Website for an Estate Firm"
+                            text="A virtual shop for an estate firm to reach out to more people towards finding a home."
+                            siteLink="https://blackacre.cf"
+                            tech="Wordpress, custom CSS."
+                        />  
                     </div>
                     <p className="limit mx-auto">Please browse through my <a href="https://www.github.com/wcoolers" target="_blank" rel="noreferrer">github repos</a> for some of my locally deployable projects, such as chrome extensions (javascript), Commandline Password Generator(nodejs) etc. Thank you.</p>
                 </Col>
