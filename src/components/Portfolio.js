@@ -8,7 +8,15 @@ export const Portfolio = () => {
             <Row>
                 <Col>
                     <h4 className="text-center mb-3">A few of my frontend apps</h4>
-                    <div className='projects mb-3'>
+                    <div className='projects mb-3'> 
+                        <Project 
+                            src="dictionary.png"
+                            alt="screenshot of website"
+                            title="Dictionary App"
+                            text="A simple multi-language installable dictionary app."
+                            siteLink="https://dictionary-app.pages.dev/"
+                            tech="React, API, material-UI, cloudflare."
+                        />
                         <Project 
                             src="moviesearch.png"
                             alt="screenshot of website"
