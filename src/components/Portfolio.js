@@ -15,15 +15,15 @@ export const Portfolio = () => {
                             title="Movie Search App"
                             text="A web app helping users to find details about their choice movies."
                             siteLink="https://moviesearchapp-5bae0.web.app/"
-                            tech="React, API, CSS, firebase"
+                            tech="React, API, CSS, firebase."
                         />
                         <Project 
                             src="expense-app.png"
                             alt="screenshot of website"
                             title="Expense App"
-                            text="A progressive web app (PWA) for tracking income and expenses. Installable on phones and desktop"
+                            text="A progressive web app (PWA) for tracking income and expenses. Installable."
                             siteLink="https://expense-app-57t.pages.dev/"
-                            tech="React, Redux, CSS, PWA, Cloudflare"
+                            tech="React, Redux, PWA, Cloudflare."
                         />
                         <Project 
                             src="musicapp.png"
@@ -31,7 +31,7 @@ export const Portfolio = () => {
                             title="Music Streaming App"
                             text="A web app for streaming and downloading patented music."
                             siteLink="https://www.coolersmusic.com"
-                            tech="Wordpress, API, custom CSS"
+                            tech="Wordpress, API, custom CSS."
                         />
                         <Project 
                             src="signup.png"
@@ -39,7 +39,7 @@ export const Portfolio = () => {
                             title="Signup Page"
                             text="A simple sign-up page to accept resgistration requests from potential users of a website."
                             siteLink="https://wcoolers.github.io/react-login-frontend/"
-                            tech="React, CSS"
+                            tech="React, CSS."
                         />
                         <Project 
                             src="akinwale.png"
@@ -47,7 +47,7 @@ export const Portfolio = () => {
                             title="Website for a Lawfirm"
                             text="A virtual shop for a lawfirm to reach out to clients and provide legal services."
                             siteLink="https://michaelakinwale.cf"
-                            tech="Wordpress, custom CSS"
+                            tech="Wordpress, custom CSS."
                         />
                         <Project 
                             src="blackacre.png"
@@ -55,7 +55,7 @@ export const Portfolio = () => {
                             title="Website for an Estate Firm"
                             text="A virtual shop for an estate firm to reach out to more people towards finding a home."
                             siteLink="https://blackacre.cf"
-                            tech="Wordpress, custom CSS"
+                            tech="Wordpress, custom CSS."
                         />
                         <Project 
                             src="typer.png"
@@ -63,7 +63,7 @@ export const Portfolio = () => {
                             title="Typing speed tester"
                             text="A typing speed tester app which could be used to improve typing speed."
                             siteLink="https://wcoolers.github.io/typing-speed-tester/"
-                            tech="Vanilla JavaScript"
+                            tech="Vanilla JavaScript."
                         />
                         <Project 
                             src="survey.png"
@@ -71,7 +71,7 @@ export const Portfolio = () => {
                             title="A survey form"
                             text="A simple survey form that may be used to collect information from users for service improvement and analytics."
                             siteLink="https://wcoolers.github.io/survey-form/"
-                            tech="HTML, CSS"
+                            tech="HTML, CSS."
                         />   
                     </div>
                     <p className="limit mx-auto">Please browse through my <a href="https://www.github.com/wcoolers" target="_blank" rel="noreferrer">github repos</a> for some of my locally deployable projects, such as chrome extensions (javascript), Commandline Password Generator(nodejs) etc. Thank you.</p>
