@@ -18,6 +18,14 @@ export const Portfolio = () => {
                             tech="React, API, CSS, firebase"
                         />
                         <Project 
+                            src="expense-app.png"
+                            alt="screenshot of website"
+                            title="Expense App"
+                            text="A progressive web app (PWA) for tracking income and expenses. Installable on phones and desktop"
+                            siteLink="https://expense-app-57t.pages.dev/"
+                            tech="React, Redux, CSS, PWA, Cloudflare"
+                        />
+                        <Project 
                             src="musicapp.png"
                             alt="screenshot of website"
                             title="Music Streaming App"
