@@ -15,7 +15,7 @@ export const Portfolio = () => {
                             title="Dictionary App"
                             text="A simple multi-language installable dictionary app."
                             siteLink="https://dictionary-app.pages.dev/"
-                            tech="React, API, material-UI, cloudflare."
+                            tech="React, API, material-UI."
                         />
                         <Project 
                             src="moviesearch.png"
@@ -45,7 +45,7 @@ export const Portfolio = () => {
                             src="signup.png"
                             alt="screenshot of website"
                             title="Signup Page"
-                            text="A simple sign-up page to accept resgistration requests from potential users of a website."
+                            text="A sign-up page to accept registration requests from potential users."
                             siteLink="https://wcoolers.github.io/react-login-frontend/"
                             tech="React, CSS."
                         />
@@ -61,7 +61,7 @@ export const Portfolio = () => {
                             src="survey.png"
                             alt="screenshot of website"
                             title="A survey form"
-                            text="A simple survey form that may be used to collect information from users for service improvement and analytics."
+                            text="A survey form useful for collect information for service improvement."
                             siteLink="https://wcoolers.github.io/survey-form/"
                             tech="HTML, CSS."
                         />
@@ -77,7 +77,7 @@ export const Portfolio = () => {
                             src="blackacre.png"
                             alt="screenshot of website"
                             title="Website for an Estate Firm"
-                            text="A virtual shop for an estate firm to reach out to more people towards finding a home."
+                            text="A virtual shop for a realtor to reach out to more clients towards finding a home."
                             siteLink="https://blackacre.cf"
                             tech="Wordpress, custom CSS."
                         />  
