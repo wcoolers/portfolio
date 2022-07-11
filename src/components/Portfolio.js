@@ -10,6 +10,14 @@ export const Portfolio = () => {
                     <h4 className="text-center mb-3">A few of my frontend apps</h4>
                     <div className='projects mb-3'> 
                         <Project 
+                            src="qr-code.png"
+                            alt="screenshot of website"
+                            title="QR Code Generator"
+                            text="A QR code generator. You can click on generated QRcode to download."
+                            siteLink="https://wcoolers-qrcode.pages.dev/"
+                            tech="Javascript, CSS."
+                        />
+                        <Project 
                             src="dictionary.png"
                             alt="screenshot of website"
                             title="Dictionary App"
