@@ -90,7 +90,7 @@ export const Portfolio = () => {
                             tech="Wordpress, custom CSS."
                         />   */}
                     </div>
-                    <p className="limit mx-auto">Please browse through my <a href="https://www.github.com/wcoolers" target="_blank" rel="noreferrer">github repos</a> for some of my locally deployable projects, such as chrome extensions (javascript), Commandline Password Generator(nodejs) etc. Thank you.</p>
+                    <p className="limit mx-auto">Please browse through my <a href="https://www.github.com/wcoolers" className='link' target="_blank" rel="noreferrer">github repos</a> for some of my locally deployable projects, such as chrome extensions (javascript), Commandline Password Generator(nodejs) etc. Thank you.</p>
                 </Col>
             </Row>
         </Container>

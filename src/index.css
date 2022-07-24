@@ -65,6 +65,9 @@ p {
   font-size: 12px;
   padding: .5rem 0;
 }
-p a:link {
+.link {
   color: rgb(45, 153, 224);
 }
+/* .link {
+  color: rgb(45, 153, 224);
+} */
