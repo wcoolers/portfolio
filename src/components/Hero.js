@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 export const Hero = () => {
     return (
         <div>
-            <Container className="p-5 bg-light container-sm mt-3 m-auto">
+            <Container className="p-5 bg-light container-sm mt-5 m-auto">
                 <Row>
                     <Col>
                         <h1>Frontend Web Developer</h1>

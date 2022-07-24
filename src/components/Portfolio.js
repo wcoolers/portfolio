@@ -29,7 +29,7 @@ export const Portfolio = () => {
                             src="moviesearch.png"
                             alt="screenshot of website"
                             title="Movie Search App"
-                            text="A web app helping users to find details about their choice movies."
+                            text="A web app helping users find details about their movies."
                             siteLink="https://moviesearchapp-5bae0.web.app/"
                             tech="React, API, CSS, firebase."
                         />
@@ -37,7 +37,7 @@ export const Portfolio = () => {
                             src="expense-app.png"
                             alt="screenshot of website"
                             title="Expense App"
-                            text="A progressive web app (PWA) for tracking income and expenses. Installable."
+                            text="A progressive web app for tracking income and expenses."
                             siteLink="https://expense-app-57t.pages.dev/"
                             tech="React, Redux, PWA, Cloudflare."
                         />
@@ -73,22 +73,22 @@ export const Portfolio = () => {
                             siteLink="https://wcoolers.github.io/survey-form/"
                             tech="HTML, CSS."
                         />
-                        <Project 
+                        {/* <Project 
                             src="akinwale.png"
                             alt="screenshot of website"
                             title="Website for a Lawfirm"
                             text="A virtual shop for a lawfirm to reach out to clients and provide legal services."
                             siteLink="https://michaelakinwale.cf"
                             tech="Wordpress, custom CSS."
-                        />
-                        <Project 
+                        /> */}
+                        {/* <Project 
                             src="blackacre.png"
                             alt="screenshot of website"
                             title="Website for an Estate Firm"
                             text="A virtual shop for a realtor to reach out to more clients towards finding a home."
                             siteLink="https://blackacre.cf"
                             tech="Wordpress, custom CSS."
-                        />  
+                        />   */}
                     </div>
                     <p className="limit mx-auto">Please browse through my <a href="https://www.github.com/wcoolers" target="_blank" rel="noreferrer">github repos</a> for some of my locally deployable projects, such as chrome extensions (javascript), Commandline Password Generator(nodejs) etc. Thank you.</p>
                 </Col>
