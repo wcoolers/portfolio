@@ -1,8 +1,12 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
   padding-top: 45px;
   letter-spacing: 0.08rem;
+  
 }
 p {
   line-height: 1.7;
@@ -37,6 +41,7 @@ p {
   margin-top: 15px;
   font-weight: 500;
   font-size: 18px;
+  color: #04925c
 }
 
 .project-card > p {
@@ -46,6 +51,8 @@ p {
   color: #2B283A;
 }
 .shade {
+  /* border: 1px solid red; */
+  height: 56px;
   box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.25);
 }
 .limit {
@@ -70,9 +77,11 @@ p {
   }
 }
 .btn {
-  background: #511AEA !important;
+  background: #1AC886 !important;
+  border: none !important;
 }
 .bar-hold {
   max-width: 1100px;
   margin: 0 auto;
+  /* border: 1px solid; */
 }

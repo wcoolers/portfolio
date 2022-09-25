@@ -39,7 +39,7 @@ export const Portfolio = () => {
                             title="Expense App"
                             text="A progressive web app for tracking income and expenses."
                             siteLink="https://expense-app-57t.pages.dev/"
-                            tech="React, Redux, PWA, Cloudflare."
+                            tech="React, Redux, PWA."
                         />
                         <Project 
                             src="musicapp.png"
