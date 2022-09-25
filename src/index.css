@@ -11,7 +11,7 @@ body {
 p {
   line-height: 1.7;
 }
-.title {
+.hero-title {
   font-size: 34px;
 }
 .projects {
@@ -73,18 +73,11 @@ p {
 .about-logo {  
   object-position: right;
 }
-.accent {
+.hero-title-accent {
   background: #511AEA;
   color: white;
 }
-@media screen and (max-width: 991px) {
-  .hero-logo, .about-logo, .box {
-    display: none;
-  }
-  .accent {
-    background: #04925c;
-  }
-}
+
 .hero-btn {
   background: white !important;
   border: 2px solid #04925c !important;
@@ -102,4 +95,12 @@ p {
 .about-img-holder {
   width: "400px";
   text-align: center;
+}
+@media screen and (max-width: 991px) {
+  .hero-logo, .about-logo, .about-img-holder {
+    display: none;
+  }
+  .hero-title-accent {
+    background: #04925c;
+  }
 }
