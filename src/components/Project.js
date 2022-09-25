@@ -11,7 +11,7 @@ export const Project = (props) => {
                 <p>{props.text}</p>
                 <p>Main Tech: {props.tech}</p>
                 <div>
-                    <Button href={props.siteLink} target="_blank" rel="noreferrer" color="danger">view project</Button>
+                    <Button href={props.siteLink} target="_blank" rel="noreferrer">view project</Button>
                     
                 </div>
             </div>
