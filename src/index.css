@@ -95,7 +95,7 @@ p {
   border: 2px solid #04925c;
   color: #04925c
 }
-.hero-btn:hover, .hero-btn:focus {
+.hero-btn:hover {
   background: #04925c;
   border: 2px solid #04925c;
   color: white
@@ -107,7 +107,7 @@ p {
   border: 2px solid #04925c;
   color: white
 }
-.project-btn:hover,  .project-btn:focus {
+.project-btn:hover {
   background: white;
   border: 2px solid;
   color: #04925c

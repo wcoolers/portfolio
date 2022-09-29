@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Project = (props) => {
     return (
         <div>
@@ -6,10 +8,10 @@ export const Project = (props) => {
                 <h3>{props.title}</h3>
                 <p>{props.text}</p>
                 <p>Main Tech: {props.tech}</p>
-                <div>
-                    <button className='project-btn' href={props.siteLink} target="_blank" rel="noreferrer">view project</button>
+                <a href={props.siteLink} target="_blank" rel="noreferrer">
+                    <button className='project-btn'>view project</button>
                     
-                </div>
+                </a>
             </div>
         </div>
     )

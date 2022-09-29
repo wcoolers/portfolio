@@ -13,9 +13,9 @@ export const Hero = () => {
                         <div className="limit">
                             <p>A frontend web developer with technical skills in JavaScript, React, CSS, Git amongst others. I also have exposure to backend services (nodejs & express) and the cloud. Sometimes, I create on-the-go beautiful websites with WordPress.</p>
                             <p>Overall, l can design and develop web apps using the latest frontend technologies to bring products to life.</p>
-                            <p>
-                                <button tag={Link} to="/portfolio" className="hero-btn">See my work</button>
-                            </p>
+                            <Link tag={Link} to="/portfolio">
+                                <button  className="hero-btn">See my work</button>
+                            </Link>
                         </div>  
                     </Col>
                     <Col className='hero-logo'><img src={process.env.PUBLIC_URL+`imgs/laptop.svg`} alt="" /></Col>
