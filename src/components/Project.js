@@ -1,7 +1,3 @@
-
-import { Button } from 'reactstrap'
-// import image from "../../public/imgs"
-
 export const Project = (props) => {
     return (
         <div>
@@ -11,7 +7,7 @@ export const Project = (props) => {
                 <p>{props.text}</p>
                 <p>Main Tech: {props.tech}</p>
                 <div>
-                    <Button className='project-btn' href={props.siteLink} target="_blank" rel="noreferrer">view project</Button>
+                    <button className='project-btn' href={props.siteLink} target="_blank" rel="noreferrer">view project</button>
                     
                 </div>
             </div>

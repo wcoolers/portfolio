@@ -7,7 +7,10 @@ body {
   padding-top: 45px;
   letter-spacing: 0.08rem;
 }
-
+.brand-name {
+  color: white !important;
+  text-shadow: 2px 2px 4px black;
+}
 p {
   line-height: 1.7;
 }
@@ -77,17 +80,6 @@ p {
   background: #511AEA;
   color: white;
 }
-
-.hero-btn {
-  background: white !important;
-  border: 2px solid #04925c !important;
-  color: #04925c !important
-}
-.project-btn {
-  background: #04925c !important;
-  border: none !important;
-  color: white !important
-}
 .header-hold {
   max-width: 1100px;
   margin: 0 auto;
@@ -95,6 +87,30 @@ p {
 .about-img-holder {
   width: "400px";
   text-align: center;
+}
+.hero-btn {
+  padding: .5rem 0.8rem;
+  border-radius: .4rem;
+  background: white;
+  border: 2px solid #04925c;
+  color: #04925c
+}
+.hero-btn:hover, .hero-btn:focus {
+  background: #04925c;
+  border: 2px solid #04925c;
+  color: white
+}
+.project-btn {
+  padding: .5rem 0.8rem;
+  border-radius: .4rem;
+  background: #04925c;
+  border: 2px solid #04925c;
+  color: white
+}
+.project-btn:hover,  .project-btn:focus {
+  background: white;
+  border: 2px solid;
+  color: #04925c
 }
 @media screen and (max-width: 991px) {
   .hero-logo, .about-logo, .about-img-holder {

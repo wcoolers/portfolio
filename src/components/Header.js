@@ -27,7 +27,7 @@ export const Header = () => {
         <div className="shade fixed-top">
 
         <Navbar light expand="sm" className='header-hold bg-white'>
-            <NavbarBrand tag={Link} to="/">Adegoke Akanbi</NavbarBrand>
+            <NavbarBrand tag={Link} className='brand-name' to="/">Adegoke Akanbi</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar id="hh">
                 <Nav className='ms-auto' navbar>
