@@ -12,10 +12,10 @@ export const Portfolio = () => {
                         <Project 
                             src="akinwale.jpeg"
                             alt="screenshot of website"
-                            title="Mikeakinwale and Co. LLP"
+                            title="Mikeakinwale&Co. LLP"
                             text="A virtual shop for the lawfirm to reach out to clients and provide legal services."
                             siteLink="https://mikeakinwale-co.pages.dev"
-                            tech="HTML, CSS, Javascript."
+                            tech="Javascript, CSS."
                         />
                         <Project 
                             src="qr-code.png"
