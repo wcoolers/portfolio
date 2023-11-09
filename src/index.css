@@ -77,7 +77,8 @@ p {
   object-position: right;
 }
 .hero-title-accent {
-  background: #511AEA;
+  /* background: #511AEA; */
+  background: #04925c;
   color: white;
 }
 .header-hold {

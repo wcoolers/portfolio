@@ -9,12 +9,13 @@ export const Hero = () => {
             <Container className="p-5 mt-5 m-auto">
                 <Row>
                     <Col>
-                        <h1 className='hero-title'>Frontend Web <span className='hero-title-accent'>Developer</span></h1>
+                        <h1 className='hero-title'>Software <span className='hero-title-accent'>Developer</span></h1>
                         <div className="limit">
-                            <p>A frontend web developer with technical skills in JavaScript, React, CSS, Git amongst others. I also have exposure to backend services (nodejs & express) and the cloud. Sometimes, I create on-the-go beautiful websites with WordPress.</p>
-                            <p>Overall, l can design and develop web apps using the latest frontend technologies to bring products to life.</p>
+                            <p>A curious mind and a software developer student at Sheridan College, with technical skills in Java, SpringBoot, PHP, Python, Nodejs, JavaScript, React, CSS, HTML, XML, Bash, Git, SQL, No SQL databases amongst others. 
+                                </p>
+                            <p>Overall, l can design and develop web apps using the latest technologies to bring products to life.</p>
                             <Link tag={Link} to="/portfolio">
-                                <button  className="hero-btn">See my work</button>
+                                <button  className="hero-btn">See some of my work</button>
                             </Link>
                         </div>  
                     </Col>

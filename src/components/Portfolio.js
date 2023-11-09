@@ -33,14 +33,14 @@ export const Portfolio = () => {
                             siteLink="https://wcoolers-qrcode.pages.dev/"
                             tech="Javascript, CSS."
                         />
-                        <Project 
+                        {/* <Project 
                             src="dictionary.png"
                             alt="screenshot of website"
                             title="Dictionary App"
                             text="A simple multi-language installable dictionary app."
                             siteLink="https://dictionary-app.pages.dev/"
                             tech="React, API, material-UI."
-                        />
+                        /> */}
                         <Project 
                             src="moviesearch.png"
                             alt="screenshot of website"
@@ -57,14 +57,14 @@ export const Portfolio = () => {
                             siteLink="https://expense-app-57t.pages.dev/"
                             tech="React, Redux, PWA."
                         />
-                        <Project 
+                        {/* <Project 
                             src="musicapp.png"
                             alt="screenshot of website"
                             title="Music Streaming App"
                             text="A web app for streaming and downloading patented music."
                             siteLink="https://www.coolersmusic.com"
                             tech="Wordpress, API, custom CSS."
-                        />
+                        /> */}
                         <Project 
                             src="signup.png"
                             alt="screenshot of website"
