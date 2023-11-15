@@ -10,19 +10,19 @@ export const Portfolio = () => {
                     <h4 className="text-center mb-3">A few of my frontend apps</h4>
                     <div className='projects mb-3'> 
                         <Project 
+                            src="moviesearch.png"
+                            alt="screenshot of website"
+                            title="Movie Search App"
+                            text="A web app helping users find details about their movies."
+                            siteLink="https://moviesearchapp-5bae0.web.app/"
+                            tech="React, API, CSS, firebase."
+                        />
+                        <Project 
                             src="akigbogun.png"
                             alt="screenshot of website"
                             title="T. Akigbogun&Co. LLP"
                             text="A virtual shop for the lawfirm to reach out to clients and provide legal services."
                             siteLink="https://akigbogunandco.pages.dev"
-                            tech="Javascript, CSS."
-                        />
-                        <Project 
-                            src="akinwale.jpeg"
-                            alt="screenshot of website"
-                            title="Mikeakinwale&Co. LLP"
-                            text="A virtual shop for the lawfirm to reach out to clients and provide legal services."
-                            siteLink="https://mikeakinwale-co.pages.dev"
                             tech="Javascript, CSS."
                         />
                         <Project 
@@ -33,6 +33,22 @@ export const Portfolio = () => {
                             siteLink="https://wcoolers-qrcode.pages.dev/"
                             tech="Javascript, CSS."
                         />
+                        <Project 
+                            src="typer.png"
+                            alt="screenshot of website"
+                            title="Typing speed tester"
+                            text="A typing speed tester app which could be used to improve typing speed."
+                            siteLink="https://wcoolers.github.io/typing-speed-tester/"
+                            tech="Vanilla JavaScript."
+                        />
+                        <Project 
+                            src="akinwale.jpeg"
+                            alt="screenshot of website"
+                            title="Mikeakinwale&Co. LLP"
+                            text="A virtual shop for the lawfirm to reach out to clients and provide legal services."
+                            siteLink="https://mikeakinwale-co.pages.dev"
+                            tech="Javascript, CSS."
+                        />
                         {/* <Project 
                             src="dictionary.png"
                             alt="screenshot of website"
@@ -41,14 +57,6 @@ export const Portfolio = () => {
                             siteLink="https://dictionary-app.pages.dev/"
                             tech="React, API, material-UI."
                         /> */}
-                        <Project 
-                            src="moviesearch.png"
-                            alt="screenshot of website"
-                            title="Movie Search App"
-                            text="A web app helping users find details about their movies."
-                            siteLink="https://moviesearchapp-5bae0.web.app/"
-                            tech="React, API, CSS, firebase."
-                        />
                         <Project 
                             src="expense-app.png"
                             alt="screenshot of website"
@@ -72,14 +80,6 @@ export const Portfolio = () => {
                             text="A sign-up page to accept registration requests from potential users."
                             siteLink="https://wcoolers.github.io/react-login-frontend/"
                             tech="React, CSS."
-                        />
-                        <Project 
-                            src="typer.png"
-                            alt="screenshot of website"
-                            title="Typing speed tester"
-                            text="A typing speed tester app which could be used to improve typing speed."
-                            siteLink="https://wcoolers.github.io/typing-speed-tester/"
-                            tech="Vanilla JavaScript."
                         />
                         <Project 
                             src="survey.png"
