@@ -32,7 +32,7 @@ export const Header = () => {
             <Collapse isOpen={isOpen} navbar id="hh">
                 <Nav className='ms-auto' navbar>
                     <NavItem>
-                        <NavLink tag={Link} to="/" onClick={close}>Home</NavLink>
+                        <NavLink tag={Link} to="/" onClick={close} focusStyle={{ color:'red' }}>Home</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink tag={Link} to="/portfolio" onClick={close}>Portfolio</NavLink>

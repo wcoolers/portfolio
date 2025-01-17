@@ -1,94 +1,67 @@
 import { Project } from "./Project"
 import { Row, Col, Container } from 'reactstrap';
+import { Link } from "react-router-dom"
 
 export const Portfolio = () => {
     
     return (
-        <Container className="p-5 rounded-lg mt-3 m-auto">
+        <Container className="p-5 rounded-lg mt-5 m-auto">
             <Row>
                 <Col>
-                    <h4 className="text-center mb-3">A few of my frontend apps</h4>
+                    <h4 className="text-center mb-3 big">Projects</h4>
                     <div className='projects mb-3'> 
                         <Project 
-                            src="moviesearch.png"
+                            src="vykers.png"
+                            alt="screenshot of a website"
+                            title="Inventory Mgt System"
+                            text="A full stack investory management system for Vykers Automobiles."
+                            siteLink="https://vykers.infinityfreeapp.com/index.php"
+                            tech="PHP, SQL, Javascript."
+                        />
+                        
+                        <Project 
+                            src="leads.png"
+                            alt="screenshot of leads chrome extension"
+                            title="Chrome Extension"
+                            text="A chrome extension that may be used to track online leads. Saving useful tabs for later reference."
+                            siteLink="https://github.com/wcoolers/chrome-extension"
+                            tech="Chrome Dev API, Javascript, CSS, HTML."
+                        />
+                        
+                        <Project 
+                            src="diceFight.png"
+                            alt="screenshot of a java app"
+                            title="Dice Fight Game"
+                            text="A fully functional dice fighting game built with java."
+                            siteLink="https://github.com/wcoolers/Dice_Fight/tree/main"
+                            tech="Java, JavaFx."
+                        />
+                        <Project 
+                            src="boredBot.png"
+                            alt="screenshot of a chrome homepage"
+                            title="New Tab Dashboard"
+                            text="A boredom helper chrome extension that gives you ideas when you have a boring day."
+                            siteLink="https://github.com/wcoolers/boredBot"
+                            tech="Chrome Dev API, Javascript."
+                        />
+                        <Project 
+                            src="squidgame2.png"
                             alt="screenshot of website"
                             title="Movie Search App"
                             text="A web app helping users find details about their movies."
                             siteLink="https://moviesearchapp-5bae0.web.app/"
-                            tech="React, API, CSS, firebase."
+                            tech="React, TMDB API, firebase."
                         />
                         <Project 
-                            src="akigbogun.png"
-                            alt="screenshot of website"
-                            title="T. Akigbogun&Co. LLP"
-                            text="A virtual shop for the lawfirm to reach out to clients and provide legal services."
-                            siteLink="https://akigbogunandco.pages.dev"
-                            tech="Javascript, CSS."
-                        />
-                        <Project 
-                            src="qr-code.png"
+                            src="qrcode.png"
                             alt="screenshot of website"
                             title="QR Code Generator"
                             text="A QR code generator. You can click on generated QRcode to download."
                             siteLink="https://wcoolers-qrcode.pages.dev/"
                             tech="Javascript, CSS."
                         />
-                        <Project 
-                            src="typer.png"
-                            alt="screenshot of website"
-                            title="Typing speed tester"
-                            text="A typing speed tester app which could be used to improve typing speed."
-                            siteLink="https://wcoolers.github.io/typing-speed-tester/"
-                            tech="Vanilla JavaScript."
-                        />
-                        <Project 
-                            src="akinwale.jpeg"
-                            alt="screenshot of website"
-                            title="Mikeakinwale&Co. LLP"
-                            text="A virtual shop for the lawfirm to reach out to clients and provide legal services."
-                            siteLink="https://mikeakinwale-co.pages.dev"
-                            tech="Javascript, CSS."
-                        />
-                        {/* <Project 
-                            src="dictionary.png"
-                            alt="screenshot of website"
-                            title="Dictionary App"
-                            text="A simple multi-language installable dictionary app."
-                            siteLink="https://dictionary-app.pages.dev/"
-                            tech="React, API, material-UI."
-                        /> */}
-                        <Project 
-                            src="expense-app.png"
-                            alt="screenshot of website"
-                            title="Expense App"
-                            text="A progressive web app for tracking income and expenses."
-                            siteLink="https://expense-app-57t.pages.dev/"
-                            tech="React, Redux, PWA."
-                        />
-                        {/* <Project 
-                            src="musicapp.png"
-                            alt="screenshot of website"
-                            title="Music Streaming App"
-                            text="A web app for streaming and downloading patented music."
-                            siteLink="https://www.coolersmusic.com"
-                            tech="Wordpress, API, custom CSS."
-                        /> */}
-                        <Project 
-                            src="signup.png"
-                            alt="screenshot of website"
-                            title="Signup Page"
-                            text="A sign-up page to accept registration requests from potential users."
-                            siteLink="https://wcoolers.github.io/react-login-frontend/"
-                            tech="React, CSS."
-                        />
-                        <Project 
-                            src="survey.png"
-                            alt="screenshot of website"
-                            title="A survey form"
-                            text="A survey form useful for collect information for service improvement."
-                            siteLink="https://wcoolers.github.io/survey-form/"
-                            tech="HTML, CSS."
-                        />
+                       
+                     
                         {/* <Project 
                             src="akinwale.png"
                             alt="screenshot of website"
@@ -106,9 +79,13 @@ export const Portfolio = () => {
                             tech="Wordpress, custom CSS."
                         />   */}
                     </div>
-                    <p className="limit mx-auto">Please browse through my <a href="https://www.github.com/wcoolers" className='link' target="_blank" rel="noreferrer">github repos</a> for some of my locally deployable projects, such as chrome extensions (javascript), Commandline Password Generator(nodejs) etc. Thank you.</p>
+                    <p className="limit mx-auto">You may also browse through my github repository <a href="https://www.github.com/wcoolers" className='link' target="_blank" rel="noreferrer">here</a>. Thank you.</p>
+                    <p className="limit mx-auto">View some legacy projects <Link tag={Link} to="/legacyPortfolio">here</Link>.</p>
                 </Col>
             </Row>
+            {/* <Link tag={Link} to="/legacyPortfolio">
+                <button  className="hero-btn">View Legacy Projects</button>
+            </Link> */}
         </Container>
     )
 }
