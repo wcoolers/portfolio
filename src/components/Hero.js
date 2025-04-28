@@ -11,7 +11,7 @@ export const Hero = () => {
                     <Col>
                         <h1 className='hero-title typing'>Software <span className='hero-title-accent'>Developer</span></h1>
                         <div className="limit">
-                            <p>A curious mind and a software developer student at Sheridan College, with technical skills in Java, SpringBoot, C#, PHP, Python, Nodejs, JavaScript, Angular, React, CSS, HTML, XML, Bash, Git, SQL, No SQL databases amongst others. 
+                            <p>A curious mind and a software developer with technical skills in Java, SpringBoot, C# (.NET), PHP, Python, Nodejs, JavaScript, Angular, React, CSS, HTML, XML, Bash, Git, SQL, No SQL databases amongst others. I also have experience writing unit and functional tests with JUnit, selelium and a host of other tools. 
                                 </p>
                             <p>Overall, l can design and develop web apps using the latest technologies to bring products to life.</p>
                             <p><b>PS</b>. <br></br> l have hands-on experience researching and developing machine learning models such as VAEs, GANs, DDPM <i>et al</i>, through my experience working with the <b>Center for Applied Artificial Intelligence</b> (CAAI), Sheridan College.</p>

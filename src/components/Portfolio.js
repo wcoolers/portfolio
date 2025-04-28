@@ -10,6 +10,39 @@ export const Portfolio = () => {
                 <Col>
                     <h4 className="text-center mb-3 big">Projects</h4>
                     <div className='projects mb-3'> 
+                        
+                        <Project 
+                            src="lawyers.jpg"
+                            alt="illustration of a scale of justice"
+                            title="Lawyny Lawyers App"
+                            text="Web services with java, spring boot, JPA et al. The frontend is built with thymeleaf."
+                            siteLink="https://github.com/wcoolers/java_rest_backend"
+                            tech="SpringBoot, REST APIs, Angular."
+                        />
+                        <Project 
+                            src="tasknest.png"
+                            alt="illustration of a scale of justice"
+                            title="TaskNest IOS App"
+                            text="An IOS app that helps students to create custom forecasts for approaching deadlines"
+                            siteLink="https://github.com/doh6077/TaskNest"
+                            tech="Swift, Firebase Auth, Storage and Database."
+                        />
+                        <Project 
+                            src="dealerships.jpg"
+                            alt="illustration of a backpack, headphone and a phone"
+                            title="Dealership Management App"
+                            text="A car dealership web app built with springboot and angular"
+                            siteLink="https://github.com/wcoolers/dealerships_app_springboot-angular"
+                            tech="SpringBoot, REST APIs, Angular."
+                        />
+                        <Project 
+                            src="students.jpg"
+                            alt="illustration of a backpack, headphone and a phone"
+                            title="Student  Registration App"
+                            text="A dockerized web app built with Springboot and Angular."
+                            siteLink="https://github.com/wcoolers/dockerized_springboot_angular"
+                            tech="SpringBoot, Angular, Docker."
+                        />
                         <Project 
                             src="vykers.png"
                             alt="screenshot of a website"

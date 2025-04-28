@@ -16,7 +16,7 @@ export const About = () => {
                             <p>Stay safe 👍. </p>
                         </div>
                     </Col>
-                    <Col className='about-img-holder'><img className='about-logo' height={300} width='auto' src={process.env.PUBLIC_URL+`imgs/about.jpeg`} alt="cactus inside a cup" /></Col>
+                    <Col className='about-img-holder'><img className='about-logo' height={300} width='auto' src={process.env.PUBLIC_URL+`imgs/undraw_profile-details_6fky.png`} alt="cactus inside a cup" /></Col>
                 </Row>
             </Container>
         </div>
