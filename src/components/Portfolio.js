@@ -10,7 +10,6 @@ export const Portfolio = () => {
                 <Col>
                     <h4 className="text-center mb-3 big">Projects</h4>
                     <div className='projects mb-3'> 
-                        
                         <Project 
                             src="lawyers.jpg"
                             alt="illustration of a scale of justice"
@@ -19,6 +18,15 @@ export const Portfolio = () => {
                             siteLink="https://github.com/wcoolers/java_rest_backend"
                             tech="SpringBoot, REST APIs, Angular."
                         />
+                        <Project 
+                            src="shop.png"
+                            alt="illustration of a lady carrying a box"
+                            title="Android Shopping App"
+                            text="Android app for creating a shopping list."
+                            siteLink="https://github.com/wcoolers/android_shopper"
+                            tech="Kotlin, Firebase Auth, Storage and Database."
+                        />
+                        
                         <Project 
                             src="tasknest.png"
                             alt="illustration of a scale of justice"
